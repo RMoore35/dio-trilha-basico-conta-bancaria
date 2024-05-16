@@ -3,20 +3,12 @@ import java.util.Scanner;
 
 public class ContaTerminal {
     public static void main(String[] args) throws Exception {
-        //TODO: Conhecer e importar a classe Scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
-        //Exibir as mensagens para o nosso usuario
-
-        //Obter pela scanner os valores digitados no terminal
-
-        //Exibir a mensagem conta criada
-
-        //criando o objeto scanner
         
-        System.out.println("Usuário: ");
+        System.out.println("Por favor, digite o usuário: ");
         int numero = scanner.nextInt();
 
-        System.out.println("Por favor, digite o número da Agência! : ");
+        System.out.println("Digite o número da Agência: ");
         String agencia = scanner.next();
         scanner.nextLine();
         
